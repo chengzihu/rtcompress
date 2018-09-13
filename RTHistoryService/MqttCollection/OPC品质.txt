@@ -1,0 +1,88 @@
+OPC品质类型
+
+
+---------------------------------------------------------------------------------------------
+
+
+The OPC_QUALITY_xxx 定义了一个过程值或者事件的品质。并且分为3类，good, uncertain和bad。
+
+
+下面的类型为合法的:
+
+
+类型                               值          说明
+
+
+OPC_QUALITY_GOOD                   0xC0       值是好的。
+
+
+OPC_QUALITY_LOCAL_OVERRIDE         0xD8       值被覆盖。典型意思为输入失去连接和手动被强制。
+
+
+下面的类型为不确定:
+
+
+类型                               值          说明
+
+
+OPC_QUALITY_UNCERTAIN              0x40       没有指定原因说明值为什么不确定。
+
+
+OPC_QUALITY_LAST_USABLE            0x44       最后的可用值。
+
+
+OPC_QUALITY_SENSOR_CAL             0x50       传感器达到了它的一个限值或者超过了它的量程。
+
+
+OPC_QUALITY_EGU_EXCEEDED           0x54       返回值越限。 
+
+
+OPC_QUALITY_SUB_NORMAL             0x58       值有几个源，并且可用的源少于规定的品质好的源。
+
+
+下面的类型为坏的:
+
+
+类型                               值          说明
+
+
+OPC_QUALITY_BAD                    0x00       值为坏的，没有标明原因。
+
+
+OPC_QUALITY_CONFIG_ERROR           0x04       服务器特定的配置问题。 
+
+
+OPC_QUALITY_NOT_CONNECTED          0x08      输入没有可用的连接。 
+
+
+OPC_QUALITY_DEVICE_FAILURE         0x0c       设备故障。
+
+
+OPC_QUALITY_LAST_KNOWN             0x14       通讯失败。最后的值是可用的。
+
+
+OPC_QUALITY_COMM_FAILURE           0x18       通讯失败，最后的值不可用。
+
+
+OPC_QUALITY_OUT_OF_SERVICE         0x1C       块脱离扫描或者被锁。
+
+
+OPC_QUALITY_SENSOR_FAILURE         0x10       传感器故障。
+
+
+The OPC_LIMIT_xxx定义了值的限制范围。
+
+
+类型                                      值          说明
+
+
+OPC_LIMIT_OK                              0x00       值在上低限，高限之内。
+
+
+OPC_LIMIT_LOW                             0x01       值低限。
+
+
+OPC_LIMIT_HIGH                            0x02       值高限。
+
+
+OPC_LIMIT_CONST                           0x03       值是常数。

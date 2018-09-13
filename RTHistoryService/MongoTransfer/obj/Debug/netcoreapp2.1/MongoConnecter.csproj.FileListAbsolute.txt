@@ -1,0 +1,11 @@
+D:\lunwen\MqttConsole\MongoConnecter\bin\Debug\netcoreapp2.1\MongoConnecter.deps.json
+D:\lunwen\MqttConsole\MongoConnecter\bin\Debug\netcoreapp2.1\MongoConnecter.runtimeconfig.json
+D:\lunwen\MqttConsole\MongoConnecter\bin\Debug\netcoreapp2.1\MongoConnecter.runtimeconfig.dev.json
+D:\lunwen\MqttConsole\MongoConnecter\bin\Debug\netcoreapp2.1\MongoConnecter.dll
+D:\lunwen\MqttConsole\MongoConnecter\bin\Debug\netcoreapp2.1\MongoConnecter.pdb
+D:\lunwen\MqttConsole\MongoConnecter\obj\Debug\netcoreapp2.1\MongoConnecter.csproj.CoreCompileInputs.cache
+D:\lunwen\MqttConsole\MongoConnecter\obj\Debug\netcoreapp2.1\MongoConnecter.AssemblyInfoInputs.cache
+D:\lunwen\MqttConsole\MongoConnecter\obj\Debug\netcoreapp2.1\MongoConnecter.AssemblyInfo.cs
+D:\lunwen\MqttConsole\MongoConnecter\obj\Debug\netcoreapp2.1\MongoConnecter.dll
+D:\lunwen\MqttConsole\MongoConnecter\obj\Debug\netcoreapp2.1\MongoConnecter.pdb
+D:\lunwen\MqttConsole\MongoConnecter\obj\Debug\netcoreapp2.1\MongoConnecter.csprojAssemblyReference.cache
