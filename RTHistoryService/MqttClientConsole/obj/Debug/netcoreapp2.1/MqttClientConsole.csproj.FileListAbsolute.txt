@@ -31,3 +31,14 @@ D:\lunwen\RTHistoryService\MqttClientConsole\obj\Debug\netcoreapp2.1\MqttClientC
 D:\lunwen\RTHistoryService\MqttClientConsole\obj\Debug\netcoreapp2.1\MqttClientConsole.dll
 D:\lunwen\RTHistoryService\MqttClientConsole\obj\Debug\netcoreapp2.1\MqttClientConsole.pdb
 D:\lunwen\RTHistoryService\MqttClientConsole\obj\Debug\netcoreapp2.1\MqttClientConsole.csprojAssemblyReference.cache
+D:\lunwen\RTHistoryService\rtcompress\RTHistoryService\MqttClientConsole\bin\Debug\netcoreapp2.1\MqttClientConsole.deps.json
+D:\lunwen\RTHistoryService\rtcompress\RTHistoryService\MqttClientConsole\bin\Debug\netcoreapp2.1\MqttClientConsole.runtimeconfig.json
+D:\lunwen\RTHistoryService\rtcompress\RTHistoryService\MqttClientConsole\bin\Debug\netcoreapp2.1\MqttClientConsole.runtimeconfig.dev.json
+D:\lunwen\RTHistoryService\rtcompress\RTHistoryService\MqttClientConsole\bin\Debug\netcoreapp2.1\MqttClientConsole.dll
+D:\lunwen\RTHistoryService\rtcompress\RTHistoryService\MqttClientConsole\bin\Debug\netcoreapp2.1\MqttClientConsole.pdb
+D:\lunwen\RTHistoryService\rtcompress\RTHistoryService\MqttClientConsole\obj\Debug\netcoreapp2.1\MqttClientConsole.csprojAssemblyReference.cache
+D:\lunwen\RTHistoryService\rtcompress\RTHistoryService\MqttClientConsole\obj\Debug\netcoreapp2.1\MqttClientConsole.csproj.CoreCompileInputs.cache
+D:\lunwen\RTHistoryService\rtcompress\RTHistoryService\MqttClientConsole\obj\Debug\netcoreapp2.1\MqttClientConsole.AssemblyInfoInputs.cache
+D:\lunwen\RTHistoryService\rtcompress\RTHistoryService\MqttClientConsole\obj\Debug\netcoreapp2.1\MqttClientConsole.AssemblyInfo.cs
+D:\lunwen\RTHistoryService\rtcompress\RTHistoryService\MqttClientConsole\obj\Debug\netcoreapp2.1\MqttClientConsole.dll
+D:\lunwen\RTHistoryService\rtcompress\RTHistoryService\MqttClientConsole\obj\Debug\netcoreapp2.1\MqttClientConsole.pdb

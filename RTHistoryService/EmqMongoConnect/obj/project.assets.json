@@ -5831,11 +5831,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\lunwen\\RTHistoryService\\EmqMongoConnect\\EmqMongoConnect.csproj",
+      "projectUniqueName": "D:\\lunwen\\RTHistoryService\\rtcompress\\RTHistoryService\\EmqMongoConnect\\EmqMongoConnect.csproj",
       "projectName": "EmqMongoConnect",
-      "projectPath": "D:\\lunwen\\RTHistoryService\\EmqMongoConnect\\EmqMongoConnect.csproj",
+      "projectPath": "D:\\lunwen\\RTHistoryService\\rtcompress\\RTHistoryService\\EmqMongoConnect\\EmqMongoConnect.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "D:\\lunwen\\RTHistoryService\\EmqMongoConnect\\obj\\",
+      "outputPath": "D:\\lunwen\\RTHistoryService\\rtcompress\\RTHistoryService\\EmqMongoConnect\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

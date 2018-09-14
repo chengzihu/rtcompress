@@ -5250,11 +5250,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\lunwen\\RTHistoryService\\MongoTransfer\\MongoTransfer.csproj",
+      "projectUniqueName": "D:\\lunwen\\RTHistoryService\\rtcompress\\RTHistoryService\\MongoTransfer\\MongoTransfer.csproj",
       "projectName": "MongoTransfer",
-      "projectPath": "D:\\lunwen\\RTHistoryService\\MongoTransfer\\MongoTransfer.csproj",
+      "projectPath": "D:\\lunwen\\RTHistoryService\\rtcompress\\RTHistoryService\\MongoTransfer\\MongoTransfer.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "D:\\lunwen\\RTHistoryService\\MongoTransfer\\obj\\",
+      "outputPath": "D:\\lunwen\\RTHistoryService\\rtcompress\\RTHistoryService\\MongoTransfer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

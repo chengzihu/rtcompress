@@ -31,3 +31,14 @@ D:\lunwen\RTHistoryService\MongoTransfer\obj\Debug\netcoreapp2.1\MongoTransfer.A
 D:\lunwen\RTHistoryService\MongoTransfer\obj\Debug\netcoreapp2.1\MongoTransfer.dll
 D:\lunwen\RTHistoryService\MongoTransfer\obj\Debug\netcoreapp2.1\MongoTransfer.pdb
 D:\lunwen\RTHistoryService\MongoTransfer\obj\Debug\netcoreapp2.1\MongoTransfer.csprojAssemblyReference.cache
+D:\lunwen\RTHistoryService\rtcompress\RTHistoryService\MongoTransfer\bin\Debug\netcoreapp2.1\MongoTransfer.deps.json
+D:\lunwen\RTHistoryService\rtcompress\RTHistoryService\MongoTransfer\bin\Debug\netcoreapp2.1\MongoTransfer.runtimeconfig.json
+D:\lunwen\RTHistoryService\rtcompress\RTHistoryService\MongoTransfer\bin\Debug\netcoreapp2.1\MongoTransfer.runtimeconfig.dev.json
+D:\lunwen\RTHistoryService\rtcompress\RTHistoryService\MongoTransfer\bin\Debug\netcoreapp2.1\MongoTransfer.dll
+D:\lunwen\RTHistoryService\rtcompress\RTHistoryService\MongoTransfer\bin\Debug\netcoreapp2.1\MongoTransfer.pdb
+D:\lunwen\RTHistoryService\rtcompress\RTHistoryService\MongoTransfer\obj\Debug\netcoreapp2.1\MongoTransfer.csprojAssemblyReference.cache
+D:\lunwen\RTHistoryService\rtcompress\RTHistoryService\MongoTransfer\obj\Debug\netcoreapp2.1\MongoTransfer.csproj.CoreCompileInputs.cache
+D:\lunwen\RTHistoryService\rtcompress\RTHistoryService\MongoTransfer\obj\Debug\netcoreapp2.1\MongoTransfer.AssemblyInfoInputs.cache
+D:\lunwen\RTHistoryService\rtcompress\RTHistoryService\MongoTransfer\obj\Debug\netcoreapp2.1\MongoTransfer.AssemblyInfo.cs
+D:\lunwen\RTHistoryService\rtcompress\RTHistoryService\MongoTransfer\obj\Debug\netcoreapp2.1\MongoTransfer.dll
+D:\lunwen\RTHistoryService\rtcompress\RTHistoryService\MongoTransfer\obj\Debug\netcoreapp2.1\MongoTransfer.pdb

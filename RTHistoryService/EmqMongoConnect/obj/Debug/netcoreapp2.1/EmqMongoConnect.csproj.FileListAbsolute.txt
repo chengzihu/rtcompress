@@ -9,3 +9,14 @@ D:\lunwen\RTHistoryService\EmqMongoConnect\obj\Debug\netcoreapp2.1\EmqMongoConne
 D:\lunwen\RTHistoryService\EmqMongoConnect\obj\Debug\netcoreapp2.1\EmqMongoConnect.dll
 D:\lunwen\RTHistoryService\EmqMongoConnect\obj\Debug\netcoreapp2.1\EmqMongoConnect.pdb
 D:\lunwen\RTHistoryService\EmqMongoConnect\obj\Debug\netcoreapp2.1\EmqMongoConnect.csprojAssemblyReference.cache
+D:\lunwen\RTHistoryService\rtcompress\RTHistoryService\EmqMongoConnect\bin\Debug\netcoreapp2.1\EmqMongoConnect.deps.json
+D:\lunwen\RTHistoryService\rtcompress\RTHistoryService\EmqMongoConnect\bin\Debug\netcoreapp2.1\EmqMongoConnect.runtimeconfig.json
+D:\lunwen\RTHistoryService\rtcompress\RTHistoryService\EmqMongoConnect\bin\Debug\netcoreapp2.1\EmqMongoConnect.runtimeconfig.dev.json
+D:\lunwen\RTHistoryService\rtcompress\RTHistoryService\EmqMongoConnect\bin\Debug\netcoreapp2.1\EmqMongoConnect.dll
+D:\lunwen\RTHistoryService\rtcompress\RTHistoryService\EmqMongoConnect\bin\Debug\netcoreapp2.1\EmqMongoConnect.pdb
+D:\lunwen\RTHistoryService\rtcompress\RTHistoryService\EmqMongoConnect\obj\Debug\netcoreapp2.1\EmqMongoConnect.csprojAssemblyReference.cache
+D:\lunwen\RTHistoryService\rtcompress\RTHistoryService\EmqMongoConnect\obj\Debug\netcoreapp2.1\EmqMongoConnect.csproj.CoreCompileInputs.cache
+D:\lunwen\RTHistoryService\rtcompress\RTHistoryService\EmqMongoConnect\obj\Debug\netcoreapp2.1\EmqMongoConnect.AssemblyInfoInputs.cache
+D:\lunwen\RTHistoryService\rtcompress\RTHistoryService\EmqMongoConnect\obj\Debug\netcoreapp2.1\EmqMongoConnect.AssemblyInfo.cs
+D:\lunwen\RTHistoryService\rtcompress\RTHistoryService\EmqMongoConnect\obj\Debug\netcoreapp2.1\EmqMongoConnect.dll
+D:\lunwen\RTHistoryService\rtcompress\RTHistoryService\EmqMongoConnect\obj\Debug\netcoreapp2.1\EmqMongoConnect.pdb

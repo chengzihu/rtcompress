@@ -5810,11 +5810,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\lunwen\\RTHistoryService\\MqttClientConsole\\MqttClientConsole.csproj",
+      "projectUniqueName": "D:\\lunwen\\RTHistoryService\\rtcompress\\RTHistoryService\\MqttClientConsole\\MqttClientConsole.csproj",
       "projectName": "MqttClientConsole",
-      "projectPath": "D:\\lunwen\\RTHistoryService\\MqttClientConsole\\MqttClientConsole.csproj",
+      "projectPath": "D:\\lunwen\\RTHistoryService\\rtcompress\\RTHistoryService\\MqttClientConsole\\MqttClientConsole.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "D:\\lunwen\\RTHistoryService\\MqttClientConsole\\obj\\",
+      "outputPath": "D:\\lunwen\\RTHistoryService\\rtcompress\\RTHistoryService\\MqttClientConsole\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

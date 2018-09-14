@@ -138,7 +138,7 @@ namespace MqttClient
             sb.Append(Math.Round(value, 2));
             sb.Append(",");
             sb.Append("'quality':");
-            sb.Append(1);
+            sb.Append(192);
             sb.Append(",");
             sb.Append("'tenantid':'");
             sb.Append(tenantid);
