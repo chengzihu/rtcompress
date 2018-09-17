@@ -11,6 +11,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MongoTransfer", "MongoTrans
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MqttClientConsole", "MqttClientConsole\MqttClientConsole.csproj", "{AD3368E4-0133-4988-928E-4D2DDF44270B}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MongodbConsoleApp", "MongodbConsoleApp\MongodbConsoleApp.csproj", "{ADC9215E-180C-4A99-92D7-83A998DB7BD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utility.Tool.Controls", "Utility.Tool.Controls\Utility.Tool.Controls.csproj", "{FE90C74A-FA6A-48E2-998F-F5B187009EE2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{AD3368E4-0133-4988-928E-4D2DDF44270B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD3368E4-0133-4988-928E-4D2DDF44270B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD3368E4-0133-4988-928E-4D2DDF44270B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADC9215E-180C-4A99-92D7-83A998DB7BD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADC9215E-180C-4A99-92D7-83A998DB7BD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADC9215E-180C-4A99-92D7-83A998DB7BD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADC9215E-180C-4A99-92D7-83A998DB7BD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE90C74A-FA6A-48E2-998F-F5B187009EE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE90C74A-FA6A-48E2-998F-F5B187009EE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE90C74A-FA6A-48E2-998F-F5B187009EE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE90C74A-FA6A-48E2-998F-F5B187009EE2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

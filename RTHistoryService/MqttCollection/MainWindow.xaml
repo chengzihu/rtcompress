@@ -6,17 +6,60 @@
         xmlns:local="clr-namespace:MqttClient"
         xmlns:d3="http://research.microsoft.com/DynamicDataDisplay/1.0"
         mc:Ignorable="d" Loaded="Window_Loaded"
-        Title="MainWindow" Height="600" Width="1000">
+        Title="MainWindow" Height="600" Width="1000"
+        xmlns:my="clr-namespace:Utility.Tool.Controls.View;assembly=Utility.Tool.Controls">
     <Grid>
-        <d3:ChartPlotter x:Name="plotter" Grid.Row="1" Grid.Column="1">
-            <d3:ChartPlotter.HorizontalAxis>
-            <d3:HorizontalDateTimeAxis Name="dateAxis"/>
-            </d3:ChartPlotter.HorizontalAxis>
-            <d3:Header FontFamily="Georgia" Content="Voltage chart"/>
-            <d3:VerticalAxisTitle FontFamily="Georgia" Content="Voltage [V]" />
-            <d3:HorizontalAxisTitle FontFamily="Georgia" Content="Time"/>
-            <d3:HorizontalLine Value="{Binding MaxVoltage}" Stroke="Red" StrokeThickness="2"/>
-            <d3:HorizontalLine Value="{Binding MinVoltage}" Stroke="Red" StrokeThickness="2"/>
-        </d3:ChartPlotter>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <StackPanel  Grid.Row="0" Grid.Column="0">
+            <d3:ChartPlotter x:Name="generalplotter" Height="600" Width="600">
+                <d3:ChartPlotter.HorizontalAxis>
+                    <d3:HorizontalDateTimeAxis Name="generaldateAxis"/>
+                </d3:ChartPlotter.HorizontalAxis>
+                <d3:Header FontFamily="Georgia" Content=""/>
+                <d3:VerticalAxisTitle FontFamily="Georgia" Content="生成的数据" />
+                <d3:HorizontalAxisTitle FontFamily="Georgia" Content="Time"/>
+                <d3:HorizontalLine Value="{Binding MaxVoltage}" Stroke="Red" StrokeThickness="2"/>
+                <d3:HorizontalLine Value="{Binding MinVoltage}" Stroke="Red" StrokeThickness="2"/>
+            </d3:ChartPlotter>
+            <Button x:Name="btn_general" Content="启动暂停" Click="btn_general_Click" Width="100"></Button>
+        </StackPanel>
+        <StackPanel  Grid.Row="0" Grid.Column="1">
+            <d3:ChartPlotter x:Name="historyplotter" Height="600" Width="600">
+                <d3:ChartPlotter.HorizontalAxis>
+                    <d3:HorizontalDateTimeAxis Name="historydateAxis"/>
+                </d3:ChartPlotter.HorizontalAxis>
+                <d3:Header FontFamily="Georgia" Content=""/>
+                <d3:VerticalAxisTitle FontFamily="Georgia" Content="还原的数据" />
+                <d3:HorizontalAxisTitle FontFamily="Georgia" Content="Time"/>
+                <d3:HorizontalLine Value="{Binding MaxVoltage}" Stroke="Red" StrokeThickness="2"/>
+                <d3:HorizontalLine Value="{Binding MinVoltage}" Stroke="Red" StrokeThickness="2"/>
+            </d3:ChartPlotter>
+            <WrapPanel Margin="50,10,0,0">
+                <TextBlock Text="数据点:"></TextBlock>
+                <TextBox x:Name="txtPointId" Text="0001" Width="100"></TextBox>
+                <TextBlock Text="开始时间:"></TextBlock>
+                <my:DateTimePicker HorizontalAlignment="Left" Name="dateTimePicker1" VerticalAlignment="Top" Height="25" Width="150" />
+                <TextBlock Text="结束时间:"></TextBlock>
+                <my:DateTimePicker HorizontalAlignment="Left" Name="dateTimePicker2" VerticalAlignment="Top" Height="25" Width="150" />
+                <Button x:Name="btn_reset" Content="启动暂停" Click="btn_reset_Click" Width="100"></Button>
+            </WrapPanel>
+        </StackPanel>
+        <StackPanel  Grid.Row="0" Grid.Column="2" Margin="10,20,10,10">
+            <TextBox
+              Name="tbMultiLine"
+              TextWrapping="Wrap"
+              AcceptsReturn="True"
+              VerticalScrollBarVisibility="Visible"
+                Height="600"
+            >
+            </TextBox>
+        </StackPanel>
     </Grid>
 </Window>

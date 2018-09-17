@@ -1,0 +1,11 @@
+D:\lunwen\RTHistoryService\rtcompress\RTHistoryService\MongodbConsoleApp\bin\Debug\netcoreapp2.1\MongodbConsoleApp.deps.json
+D:\lunwen\RTHistoryService\rtcompress\RTHistoryService\MongodbConsoleApp\bin\Debug\netcoreapp2.1\MongodbConsoleApp.runtimeconfig.json
+D:\lunwen\RTHistoryService\rtcompress\RTHistoryService\MongodbConsoleApp\bin\Debug\netcoreapp2.1\MongodbConsoleApp.runtimeconfig.dev.json
+D:\lunwen\RTHistoryService\rtcompress\RTHistoryService\MongodbConsoleApp\bin\Debug\netcoreapp2.1\MongodbConsoleApp.dll
+D:\lunwen\RTHistoryService\rtcompress\RTHistoryService\MongodbConsoleApp\obj\Debug\netcoreapp2.1\MongodbConsoleApp.csproj.CoreCompileInputs.cache
+D:\lunwen\RTHistoryService\rtcompress\RTHistoryService\MongodbConsoleApp\obj\Debug\netcoreapp2.1\MongodbConsoleApp.AssemblyInfoInputs.cache
+D:\lunwen\RTHistoryService\rtcompress\RTHistoryService\MongodbConsoleApp\obj\Debug\netcoreapp2.1\MongodbConsoleApp.AssemblyInfo.cs
+D:\lunwen\RTHistoryService\rtcompress\RTHistoryService\MongodbConsoleApp\bin\Debug\netcoreapp2.1\MongodbConsoleApp.pdb
+D:\lunwen\RTHistoryService\rtcompress\RTHistoryService\MongodbConsoleApp\obj\Debug\netcoreapp2.1\MongodbConsoleApp.csprojAssemblyReference.cache
+D:\lunwen\RTHistoryService\rtcompress\RTHistoryService\MongodbConsoleApp\obj\Debug\netcoreapp2.1\MongodbConsoleApp.dll
+D:\lunwen\RTHistoryService\rtcompress\RTHistoryService\MongodbConsoleApp\obj\Debug\netcoreapp2.1\MongodbConsoleApp.pdb

@@ -41,6 +41,9 @@
     <Reference Include="MQTTnet, Version=2.8.2.0, Culture=neutral, PublicKeyToken=b69712f52770c0a7, processorArchitecture=MSIL">
       <HintPath>..\packages\MQTTnet.2.8.2\lib\net461\MQTTnet.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
@@ -61,6 +64,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="HTHistorySDK.cs" />
     <Compile Include="VoltageViewModel\VoltagePointCollection.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -104,6 +108,12 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="OPC品质.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Utility.Tool.Controls\Utility.Tool.Controls.csproj">
+      <Project>{fe90c74a-fa6a-48e2-998f-f5b187009ee2}</Project>
+      <Name>Utility.Tool.Controls</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

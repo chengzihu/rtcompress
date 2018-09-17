@@ -22,10 +22,13 @@ namespace MqttClient.VoltageViewModel
         
         public double Voltage { get; set; }
 
-        public VoltagePoint(double voltage, DateTime date)
+        public int Interval { get; set; }
+
+        public VoltagePoint(double voltage, DateTime date,int interval)
         {
             this.Date = date;
             this.Voltage = voltage;
+            this.Interval = interval;
         }
     }
 }

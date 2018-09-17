@@ -228,3 +228,7 @@ D:\lunwen\RTHistoryService\rtcompress\RTHistoryService\MqttCollection\obj\Debug\
 D:\lunwen\RTHistoryService\rtcompress\RTHistoryService\MqttCollection\obj\Debug\MqttClient.csproj.CopyComplete
 D:\lunwen\RTHistoryService\rtcompress\RTHistoryService\MqttCollection\obj\Debug\MqttClient.exe
 D:\lunwen\RTHistoryService\rtcompress\RTHistoryService\MqttCollection\obj\Debug\MqttClient.pdb
+D:\lunwen\RTHistoryService\rtcompress\RTHistoryService\MqttCollection\bin\Debug\Utility.Tool.Controls.dll
+D:\lunwen\RTHistoryService\rtcompress\RTHistoryService\MqttCollection\bin\Debug\Utility.Tool.Controls.pdb
+D:\lunwen\RTHistoryService\rtcompress\RTHistoryService\MqttCollection\bin\Debug\Newtonsoft.Json.dll
+D:\lunwen\RTHistoryService\rtcompress\RTHistoryService\MqttCollection\bin\Debug\Newtonsoft.Json.xml

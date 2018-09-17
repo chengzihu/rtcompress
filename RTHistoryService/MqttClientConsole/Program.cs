@@ -3,13 +3,7 @@ using MongoDB.Bson;
 using MongoDB.Driver;
 using MQTTnet;
 using MQTTnet.Client;
-using MQTTnet.Diagnostics;
-using MQTTnet.Implementations;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
 using System;
-using System.Text;
-using System.Threading;
 using System.Threading.Tasks;
 
 namespace MqttClientConsole
@@ -18,73 +12,73 @@ namespace MqttClientConsole
     {
         static void Main(string[] args)
         {
-            var factory = new MqttFactory();
-            var mqttClient = factory.CreateMqttClient();
-            var options = new MqttClientOptionsBuilder()
-            .WithClientId("dotnetclient1")
-            //.WithTcpServer("132.232.98.119", 1883)
-            .WithTcpServer("118.24.180.83", 1883)
-            .WithCredentials("admin", "public")
-            .Build();
-            //连接断了后重新连
-            mqttClient.Disconnected += async (s, e) =>
-            {
-                Console.WriteLine("### DISCONNECTED FROM SERVER ###");
-                await Task.Delay(TimeSpan.FromSeconds(5));
+            //var factory = new MqttFactory();
+            //var mqttClient = factory.CreateMqttClient();
+            //var options = new MqttClientOptionsBuilder()
+            //.WithClientId("dotnetclient1")
+            ////.WithTcpServer("132.232.98.119", 1883)
+            //.WithTcpServer("118.24.180.83", 1883)
+            //.WithCredentials("admin", "public")
+            //.Build();
+            ////连接断了后重新连
+            //mqttClient.Disconnected += async (s, e) =>
+            //{
+            //    Console.WriteLine("### DISCONNECTED FROM SERVER ###");
+            //    await Task.Delay(TimeSpan.FromSeconds(5));
 
-                try
-                {
-                    await mqttClient.ConnectAsync(options);
-                }
-                catch (Exception ee)
-                {
-                    Console.WriteLine("### RECONNECTING FAILED ###");
-                }
-            };
-            mqttClient.ApplicationMessageReceived += (s, e) =>
-            {
-                //接受到消息并处理
-                Console.WriteLine("### RECEIVED APPLICATION MESSAGE ###");
-                Console.WriteLine($"+ Topic = {e.ApplicationMessage.Topic}");
-                Console.WriteLine($"+ Payload = {Encoding.UTF8.GetString(e.ApplicationMessage.Payload)}");
-                Console.WriteLine($"+ QoS = {e.ApplicationMessage.QualityOfServiceLevel}");
-                Console.WriteLine($"+ Retain = {e.ApplicationMessage.Retain}");
-                Console.WriteLine();
-                var now = DateTime.Now;
-                System.Diagnostics.Debug.WriteLine(now.ToLocalTime() + "." + now.Millisecond + "--->" + $"Message from dotnet client:+{ Encoding.UTF8.GetString(e.ApplicationMessage.Payload)}");
-            };
-            mqttClient.Connected += async (s, e) =>
-            {
-                Console.WriteLine("### CONNECTED WITH SERVER ###");
-                //连接成功后马上订阅消息,主题是topic3
-                //await mqttClient.SubscribeAsync(new TopicFilterBuilder().WithTopic(@"$local/topic3").Build());
-                //await mqttClient.SubscribeAsync(new TopicFilterBuilder().WithTopic(@"$queue/topic3").Build());
+            //    try
+            //    {
+            //        await mqttClient.ConnectAsync(options);
+            //    }
+            //    catch (Exception ee)
+            //    {
+            //        Console.WriteLine("### RECONNECTING FAILED ###");
+            //    }
+            //};
+            //mqttClient.ApplicationMessageReceived += (s, e) =>
+            //{
+            //    //接受到消息并处理
+            //    Console.WriteLine("### RECEIVED APPLICATION MESSAGE ###");
+            //    Console.WriteLine($"+ Topic = {e.ApplicationMessage.Topic}");
+            //    Console.WriteLine($"+ Payload = {Encoding.UTF8.GetString(e.ApplicationMessage.Payload)}");
+            //    Console.WriteLine($"+ QoS = {e.ApplicationMessage.QualityOfServiceLevel}");
+            //    Console.WriteLine($"+ Retain = {e.ApplicationMessage.Retain}");
+            //    Console.WriteLine();
+            //    var now = DateTime.Now;
+            //    System.Diagnostics.Debug.WriteLine(now.ToLocalTime() + "." + now.Millisecond + "--->" + $"Message from dotnet client:+{ Encoding.UTF8.GetString(e.ApplicationMessage.Payload)}");
+            //};
+            //mqttClient.Connected += async (s, e) =>
+            //{
+            //    Console.WriteLine("### CONNECTED WITH SERVER ###");
+            //    //连接成功后马上订阅消息,主题是topic3
+            //    //await mqttClient.SubscribeAsync(new TopicFilterBuilder().WithTopic(@"$local/topic3").Build());
+            //    //await mqttClient.SubscribeAsync(new TopicFilterBuilder().WithTopic(@"$queue/topic3").Build());
 
-                Console.WriteLine("### SUBSCRIBED ###");
+            //    Console.WriteLine("### SUBSCRIBED ###");
 
-                Task.Factory.StartNew(() =>
-                {
-                    while (true)
-                    {
-                        for (int i = 0; i < 10000; i++)
-                        {
-                            Publich(mqttClient,i).GetAwaiter().GetResult();
-                            //Task.Delay(1000).GetAwaiter().GetResult();
-                            Thread.Sleep(10);
-                        }
-                    }
-                });
+            //    Task.Factory.StartNew(() =>
+            //    {
+            //        while (true)
+            //        {
+            //            for (int i = 0; i < 10000; i++)
+            //            {
+            //                Publich(mqttClient,i).GetAwaiter().GetResult();
+            //                //Task.Delay(1000).GetAwaiter().GetResult();
+            //                Thread.Sleep(10);
+            //            }
+            //        }
+            //    });
 
-                ////并马上publish一个消息，主题是topic1
-                //var message = new MqttApplicationMessageBuilder()
-                //.WithTopic("topic1")
-                //.WithPayload("Message from dotnet client")
-                //.WithAtMostOnceQoS()
-                //.Build();
-                //await mqttClient.PublishAsync(message);
-            };
-            //建立连接
-            mqttClient.ConnectAsync(options);
+            //    ////并马上publish一个消息，主题是topic1
+            //    //var message = new MqttApplicationMessageBuilder()
+            //    //.WithTopic("topic1")
+            //    //.WithPayload("Message from dotnet client")
+            //    //.WithAtMostOnceQoS()
+            //    //.Build();
+            //    //await mqttClient.PublishAsync(message);
+            //};
+            ////建立连接
+            //mqttClient.ConnectAsync(options);
 
             Console.WriteLine("Client...");
             Console.Read();
@@ -180,4 +174,39 @@ namespace MqttClientConsole
             return new DateTime(t);
         }
     }
+
+    //public interface IMongoDBContext
+    //{
+    //    /// <summary>
+    //    /// register entity type
+    //    /// </summary>
+    //    /// <param name="registration"></param>
+    //    void OnRegisterModel(ITypeRegistration registration);
+
+    //    /// <summary>
+    //    /// name of ConnectionString in config file
+    //    /// </summary>
+    //    string ConnectionStringName { get; }
+
+    //    /// <summary>
+    //    /// build Configuration by config file
+    //    /// </summary>
+    //    /// <returns></returns>
+    //    IConfigurationRegistration BuildConfiguration();
+    //}
+    //public interface IEntity
+    //{
+    //    /// <summary>
+    //    /// mongo id
+    //    /// </summary>
+    //    string Id { get; set; }
+    //    /// <summary>
+    //    /// save document
+    //    /// </summary>
+    //    void Save();
+    //    /// <summary>
+    //    /// remove document
+    //    /// </summary>
+    //    void Remove();
+    //}
 }
